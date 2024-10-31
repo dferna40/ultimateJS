@@ -1,5 +1,6 @@
 //Objetos similares
 
+
 function similares(obj1, obj2) {
     let distintos = false;
     for (let llave in obj1){
