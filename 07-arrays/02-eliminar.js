@@ -5,7 +5,7 @@ const letras = ['a', 'b', 'c', 'd'];
 
 //console.log(letras,final);
 
-// El método shiht saca el primer elemento de un array
+// El método shift saca el primer elemento de un array
 //const comienzo = letras.shift();
 //console.log(letras,comienzo);
 
