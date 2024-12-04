@@ -1,17 +1,17 @@
 // Aclaración: Las funciones en JS tambien son objetos y por lo tanto tambien tienen metodos
 // Llamados objetos de primera clase
 
-function Usuario(nombre) {
+function usuario(nombre) {
     this.nombre = nombre;
 }
 
 // Metodo que retorna el nombre de la funcion
-console.log('nombre de la funcion: ', Usuario.name);
+console.log('nombre de la funcion: ', usuario.name);
 // Metodo que retorna la cantidad de argumentos que recibe la funcion
-console.log('cantidad de argumentos que recibe la funcion: ', Usuario.length);
+console.log('cantidad de argumentos que recibe la funcion: ', usuario.length);
 
 // Defino una constante y le asigno una funcion
-const U = Usuario;
+const U = usuario;
 // Se crea un usario a partir de la funcion de usuario "U" definida al principio
 let user = new U('David');
 
@@ -22,7 +22,7 @@ function of(Fn, arg) {
     return new Fn(arg);
 }
 
-let usuario = of(Usuario, "Pepe");
+let usuario = of(usuario, "Pepe");
 
 console.log('Usando of: ', usuario);
 
