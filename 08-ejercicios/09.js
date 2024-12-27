@@ -5,7 +5,7 @@ const usuarios = [
 ];
 
 const users = [
-    {edad: 17, nombre: 'Juan', plan: 'premium'},
-    {edad: 13, nombre: 'Paco', plan: 'free'},
-    {edad: 32, nombre: 'Diego', plan: 'free'},
+    {age: 17, name: 'Juan', membership: 'premium'},
+    {age: 13, name: 'Paco', membership: 'free'},
+    {age: 32, name: 'Diego', membership: 'free'},
 ];
