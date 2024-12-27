@@ -6,7 +6,15 @@ const usuarios = [
 ];
 
 function obtenerMayor(arr) {
-        
+    let mayor = arr[0];
+    for (let usuario of arr) {
+        if(mayor.edad < usuario.edad) {
+            mayor = usuario;
+        }
+    }
+
+    return mayor;
+
 }
 
 const mayor = obtenerMayor(usuarios);
