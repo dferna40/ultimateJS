@@ -9,3 +9,10 @@ const users = [
     {age: 13, name: 'Paco', membership: 'free'},
     {age: 32, name: 'Diego', membership: 'free'},
 ];
+
+// Unificar las estructuras de usuarios y users
+// fusionar los array
+// ordenar por edad
+// crear plantilla HTML:
+// <li>Nombre: name, Edad: age</li>
+// imprimir la lista por consola
